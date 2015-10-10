@@ -4,13 +4,13 @@ var mutneedles = require("muts-needle-plot");
 var target = yourDiv; // autmically generated in snippets examples
 var muts = "./data/ENST00000557334_genomic.json";
 var regions = [
-  {"name": "exon1", "coord": "25403685-25403865"},
-  {"name": "exon2", "coord": "25398208-25398329"},
-  {"name": "exon3", "coord": "25380168-25380346"},
-  {"name": "exon4", "coord": "25378548-25378707"},
-  {"name": "exon5", "coord": "25357723-25362845"}
+  {"name": "PI3K-ABD", "coord": "16-105"},
+  {"name": "PI3K-RBD", "coord": "187-289"},
+  {"name": "PI3K-C2", "coord": "33-487"},
+  {"name": "PI3K helica", "coord": "51-694"},
+  {"name": "PI3K/PI4K", "coord": "797-1068"}
 ];
-var legends = {x: "KRAS genomic pos", y: "Mutation Count"}
+var legends = {x: "PIK3CA genomic pos", y: "Mutation Count"}
 var colorMap = {
   // mutation categories
   "missense_variant": "yellow",
@@ -21,7 +21,7 @@ var colorMap = {
 };
 
 
-var config = {minCoord: 25357723, maxCoord: 25403870, mutationData: muts, regionData: regions, target: target, legends: legends, colorMap: colorMap }
+var config = {minCoord: 1, maxCoord: 1068, mutationData: muts, regionData: regions, target: target, legends: legends, colorMap: colorMap }
 
 var instance =  new mutneedles(config);
 
