@@ -1,0 +1,21 @@
+[
+    {
+        "name": "PI3K-ABD",
+        "coord": "16-105"
+    },
+    {
+        "name": "PI3K-RBD",
+        "coord": "187-289"
+    },
+    {
+        "name": "PI3K-C2",
+        "coord": "330-487"
+    }
+    {
+       "name": "PI3K helica",
+        "coord": "517-694"
+    }
+    {
+       "name": "PI3K/PI4K",
+        "coord": "797-1068"
+    }
