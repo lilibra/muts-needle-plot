@@ -1,48 +1,48 @@
 [
     {
-        "coord": "273",
+        "coord": "30",
         "category": "missense",
-        "value": 21
+        "value": 6
     },
     {
-        "coord": "220",
+        "coord": "39",
         "category": "missense",
-        "value": 11
+        "value": 1
     },
     {
-        "coord": "248",
+        "coord": "51",
         "category": "missense",
-        "value": 16
+        "value": 7
     },
     {
-        "coord": "175",
+        "coord": "76",
         "category": "missense",
-        "value": 8
+        "value": 1
     },
     {
-        "coord": "195",
+        "coord": "111",
         "category": "missense",
-        "value": 9
+        "value": 1
     },
     {
-        "coord": "282",
+        "coord": "202",
         "category": "missense",
-        "value": 5
+        "value": 1
     },
     {
-        "coord": "157",
+        "coord": "211",
         "category": "missense",
-        "value": 5
+        "value": 1
     },
     {
-        "coord": "176",
+        "coord": "420",
         "category": "missense",
-        "value": 5
+        "value": 1
     },
     {
-        "coord": "241",
+        "coord": "498",
         "category": "missense",
-        "value": 5
+        "value": 1
     },
     {
         "coord": "179",
