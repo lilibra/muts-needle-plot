@@ -2,7 +2,7 @@
 var mutneedles = require("muts-needle-plot");
 
 var target = yourDiv; // autmically generated in snippets examples
-var muts = "./data/ENST00000557334_genomic.json";
+var muts = "./data/PIK3CA_MUTATIONS.json";
 var regions = [
   {"name": "PI3K-ABD", "coord": "16-105"},
   {"name": "PI3K-RBD", "coord": "187-289"},
