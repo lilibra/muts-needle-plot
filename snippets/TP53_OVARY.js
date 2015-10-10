@@ -19,7 +19,7 @@ var plotConfig = {
   maxCoord :      394,
   minCoord :      0,
   targetElement : yourDiv,
-  mutationData:   "./data/TP53_MUTATIONS.json",
+  mutationData:   "./data/PIK3CA_MUTATIONS.json",
   regionData:     "./data/TP53_REGIONS.json",
   colorMap:       colorMap,
   legends:        legends,
