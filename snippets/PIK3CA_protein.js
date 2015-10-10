@@ -14,10 +14,6 @@ var legends = {x: "PIK3CA genomic pos", y: "Mutation Count"}
 var colorMap = {
   // mutation categories
   "missense_variant": "yellow",
-  "frameshift_variant": "blue",
-  "stop_gained": "red",
-  "stop_lost": "orange",
-  "synonymous_variant": "lightblue"
 };
 
 
