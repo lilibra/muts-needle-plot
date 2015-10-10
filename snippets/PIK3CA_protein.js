@@ -1,24 +1,31 @@
 // import our plot-library
 var mutneedles = require("muts-needle-plot");
 
-var target = yourDiv; // autmically generated in snippets examples
-var muts = "./data/PIK3CA_MUTATIONS.json";
-var regions = [
-  {"name": "PI3K-ABD", "coord": "16-105"},
-  {"name": "PI3K-RBD", "coord": "187-289"},
-  {"name": "PI3K-C2", "coord": "33-487"},
-  {"name": "PI3K helica", "coord": "51-694"},
-  {"name": "PI3K/PI4K", "coord": "797-1068"}
-];
-var legends = {x: "PIK3CA genomic pos", y: "Mutation Count"}
 var colorMap = {
   // mutation categories
   "missense_variant": "yellow",
+  // regions
+  "X-binding": "olive",
+  "region1": "olive"
 };
 
+var legends = {
+  x: "Corresponding protein positions to transcript X",
+  y: "Number of recorded mutation"
+};
 
-var config = {minCoord: 1, maxCoord: 1068, mutationData: muts, regionData: regions, target: target, legends: legends, colorMap: colorMap }
+//Crate config Object
+var plotConfig = {
+  maxCoord :      250,
+  minCoord :      0,
+  targetElement : yourDiv,
+  mutationData:   "./data/muts.json",
+  regionData:     "./data/regions.json",
+  colorMap:       colorMap,
+  legends:        legends
+};
 
-var instance =  new mutneedles(config);
+// Instantiate a plot
+var instance = new mutneedles(plotConfig);
 
 //@biojs-instance=instance (provides the instance to the BioJS event system)
